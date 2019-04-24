@@ -1,7 +1,7 @@
 .base-block {
     width: 600px;
     height: 600px;
-    background-color: bisque;
+    background-color: blue;
     position: relative;
 }
 
@@ -13,23 +13,8 @@
 }
 .block-1{
     position: absolute;
-    top:10px;
-    right: 10px;
-}
-.block-2{
-    position: absolute;
-    bottom: 10px;
-    right:10px;
-}
-.block-3{
-    position: absolute;
-    bottom: 10px;
-    left:10px;
-
-}
-.block-4{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    
 }
