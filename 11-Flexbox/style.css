@@ -1,25 +1,29 @@
-.wrapper{
-    display:flex;
+.wrapper {
+    display: flex;
     flex-direction: column;
     width: 600px;
     margin: auto;
-
 }
-.row{
+
+.row {
     display: flex;
 }
-.cell{
+
+.cell {
     min-height: 50px;
     background: yellow;
-    width: 50px;
-    margin-bottom: 10px;
-}
-.header, .col-1, .col-2, .col-3{
-    flex-grow: 1;
-    margin:10px;
+    margin: 10px;
 }
 
-.footer{
+.col-3 {
     flex-grow: 1;
-    margin-top:10px;
+}
+
+.col-1 {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.col-2 {
+    width: 60%;
 }
