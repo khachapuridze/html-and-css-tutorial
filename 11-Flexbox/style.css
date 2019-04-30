@@ -14,14 +14,11 @@
     width: 50px;
     margin-bottom: 10px;
 }
-.header, .col-1, .col-2{
+.header, .col-1, .col-2, .col-3{
     flex-grow: 1;
     margin:10px;
 }
-.col-3{
-    width: 60%;
-    margin:10px auto;
-}
+
 .footer{
     flex-grow: 1;
     margin-top:10px;
