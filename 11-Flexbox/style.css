@@ -1,0 +1,28 @@
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+}
+.cell{
+    min-height: 50px;
+    background: yellow;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.header, .col-1, .col-2{
+    flex-grow: 1;
+    margin:10px;
+}
+.col-3{
+    width: 60%;
+    margin:10px auto;
+}
+.footer{
+    flex-grow: 1;
+    margin-top:10px;
+}
