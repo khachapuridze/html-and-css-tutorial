@@ -4,7 +4,7 @@
     padding:0;
 }
 footer{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .top{
     background-color: #222533;
@@ -15,8 +15,8 @@ footer{
     
 }
 .bottom .wrapper{
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 36px;
 }
 .wrapper{
     width: 1168px;
@@ -27,11 +27,16 @@ footer{
 .wrapper div{
     width: 270px;
     margin-right: 30px;
+    padding-bottom: 14px;
 }
 
 
 .wrapper div:last-child{
     margin-right:0;
+}
+.top .wrapper div{
+    margin-top: 24.5px;
+    margin-bottom: 29px;
 }
 
 .bottom .wrapper p{
@@ -39,6 +44,7 @@ footer{
     line-height: 24px;
     font-family: 'PT Sans';
     color:#A1B1BC;
+    margin-top: 19px;
 
 }
 .bottom .wrapper a{
@@ -52,6 +58,7 @@ footer{
     line-height: 24px;
     color:#FFFFFF;
     margin-bottom: 37px;
+    letter-spacing: 4.5px;
 }
 
 
@@ -67,6 +74,7 @@ footer{
     list-style: none;
     display: flex;
     flex-direction: column;
+    padding-bottom: 11px;
   
   
 }
@@ -90,6 +98,7 @@ footer{
 
 .wrapper ul li:last-child{
     border-bottom: none;
+    padding-bottom: 0px;
 }
 .wrapper ul li:first-child{
     
@@ -110,18 +119,19 @@ footer{
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 24px;
+    padding-bottom: 3px;
 }
 .wrapper .notes{
     color: #A1B1BC;
     font-family: 'PT Sans';
     font-size: 14px;
-    line-height: 24px;
+    line-height: 47px;
 }
 .wrapper .notes p{
-    margin-bottom: 20px;
+    
     font-size: 15px;
     line-height: 24px;
-  
+    margin-top: -18px;
     font-family: 'PT Sans';
 }
 .wrapper .notes a{
