@@ -2,7 +2,22 @@
     padding: 0;
     margin:0;
 }
-
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster Regular'), local('Lobster-Regular'), url(../style/Lobster-Regular.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
 section div{
     background-image: url(../img/background-1.jpg);
     width: 100%;
@@ -11,6 +26,9 @@ section div{
     background-position: center;
     background-size: cover;
     position: absolute;
+    filter: blur(16px);
+    transform: scale(1.6);
+
     
 }
 section div::after{
@@ -26,8 +44,23 @@ section div::before{
     content:"";
     width: 100%;
     height: 100%;
-    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.65) 55%);
+    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.65) 55%,rgba(0,0,0,0) 100%);
+    opacity:0.85;
 }
 section h3{
     position: absolute;
+}
+span{
+    font-family: 'Lobster';
+    font-size: 197px;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 7px;
+    margin-top: 345px;
+    margin-left: -8px;
+    z-index:3;
+    color:#FFF;
+
+
 }
